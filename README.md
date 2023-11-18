@@ -1,1 +1,2 @@
-# BIF601_final_project
+# BIF601 Programming Essentials Final Project 
+## APP
