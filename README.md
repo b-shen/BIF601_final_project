@@ -1,5 +1,8 @@
 # BIF601 Programming Essentials Final Project 
 # ELISA Analysis in Python
+
+Application filename: 'log4pl_ELISA_v1.0.py'
+
 ## Background
 
 Enzyme-linked immunosorbent assay (ELISA) is a laboratory technique which uses an enzyme-bound antibody or antigen to detect and measure presence of antibodies, antigens, and proteins in biological samples such as blood, urine, or saliva. ELISA has continued to be proven to be a standard analytical tool in science and industry since its development in the 1960s as this method detects and measures tiny amounts of analytes with high accuracy and precision (Lequin, 2005). 
