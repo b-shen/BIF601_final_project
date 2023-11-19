@@ -37,6 +37,8 @@ Project is created with:
 
 ![image3](https://github.com/b-shen/BIF601_final_project/blob/main/images/image3.png?raw=true)
 
+![image4](https://github.com/b-shen/BIF601_final_project/blob/main/images/image4.png?raw=true)
+
 ## Sources
 Lequin, R. M. (2005). Enzyme Immunoassay (EIA)/Enzyme-Linked Immunosorbent Assay (ELISA). Clinical Chemistry, 51(12), 2415–2418. https://doi.org/10.1373/clinchem.2005.051532.
 
