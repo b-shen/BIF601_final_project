@@ -31,7 +31,7 @@ Project is created with:
 
 ## Examples of use
 
-![alt text](https://github.com/b-shen/BIF601_final_project/blob/main/image1.jpg?raw=true)
+![alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image1.jpg?raw=true)
 
 
 ## Sources
