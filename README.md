@@ -39,7 +39,11 @@ Project is created with:
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image4.png?raw=true "image4")
 
+index.html - Example of result summary output
+
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image5.png?raw=true "image5")
+
+log4pl_plot.html - Example of interactive graph using Plotly
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image6.png?raw=true "image6")
 
