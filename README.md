@@ -57,7 +57,8 @@ Choose to input sample readings for prediction of concentration.
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image5.png?raw=true "image5")
 
-#### log4pl_plot.html (Example of interactive graph using Plotly)
+#### log4pl_plot.html 
+<a href="https://htmlpreview.github.io/?https://github.com/b-shen/BIF601_final_project/blob/main/log4pl_plot.html">Example of interactive graph using Plotly</a>
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image6.png?raw=true "image6")
 
