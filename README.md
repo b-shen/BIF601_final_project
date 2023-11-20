@@ -56,7 +56,8 @@ Follow instructions in console to enter ELISA data..
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image3.png?raw=true "image3")
 
-Choose to input sample readings for prediction of concentration or end analysis.
+Choose to input sample readings for prediction of concentration or end analysis. 
+End the application by entering 'n' or 'end'.
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image4.png?raw=true "image4")
 
