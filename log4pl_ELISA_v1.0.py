@@ -181,7 +181,7 @@ def log4pl_x(y, A, B, C, D):
 try:
     params, _ = curve_fit(log4pl_y, x, y)
 except RuntimeError:
-    print("RuntimeError! (4pl model cannot fit into data)\n")
+    print("\nRuntimeError!\n***4PL model cannot fit into data***\n")
     # plot result
     plt.plot(x, y, 'bo',label="Reference Standard")
     plt.title('Result')
