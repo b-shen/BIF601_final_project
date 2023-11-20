@@ -36,6 +36,7 @@ Project is created with:
 ### Instructions
 
 Load python file 'log4pl_ELISA_v1.0.py' in Spyder and Run file (F5).
+See 'Requirements.txt' for list of all packages (with their versions) that the user must install to run the program.
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image1.png?raw=true "image1")
 
