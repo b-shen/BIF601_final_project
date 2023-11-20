@@ -40,7 +40,7 @@ See 'Requirements.txt' for list of all packages (with their versions) that the u
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image1.png?raw=true "image1")
 
-Follow instructions in console and enter ELISA data..
+Follow instructions in console to enter ELISA data..
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image2.png?raw=true "image2")
 
