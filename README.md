@@ -13,7 +13,13 @@ Raw data from ELISA often requires a prior adaptation using proprietary software
 
 This is an ELISA Tool as an application to analyze data generated from ELISA. The application allows users to input generated data, for example, concentration (x) and absorbance results (y) and use libraries such as NumPy, SciPy, Matplotlib, and Pandas for data processing and analysis. The application uses the ‘curve_fit’ function in SciPy to fit a 4-parameter logistic regression model to the input data. The data and visualization of the predicted model were built using functions from the Matplotlib library and will present a sigmoid curve.
 
-* Defined 4PL model: <b>y = (((A-D)/(1.0+((x/C)**B))) + D)</b>
+Defined 4PL model: <b> y = (((A-D)/(1.0+((x/C)**B))) + D) </b>
+
+The 4 estimated parameters consist of the following:
+* A = the minimum value that can be obtained (i.e. what happens at 0 concentration)
+* D = the maximum value that can be obtained (i.e. what happens at infinite concentration)
+* C = the point of inflection (i.e. the point on the S shaped curve halfway between A and D)
+* B = Hill’s slope of the curve (i.e. this is related to the steepness of the curve at point C). 
 
 After the graph is presented, the application will provide an option for the user to input measured absorbance results and use the modeled function to interpolate the unknown concentration as output. 
 
