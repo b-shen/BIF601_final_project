@@ -44,7 +44,9 @@ Follow instructions in console to enter ELISA data..
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image2.png?raw=true "image2")
 
-Plot reference standard results, curve fit and show the 4PL parameters and the R-squared value.
+#### Results: 
+* A plot of reference standard curve fit.
+* The 4PL parameters and the R-squared value.
 
 ![Alt text](https://github.com/b-shen/BIF601_final_project/blob/main/images/image3.png?raw=true "image3")
 
