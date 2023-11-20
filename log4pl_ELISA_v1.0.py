@@ -235,13 +235,13 @@ while True:
     elif yn == 'y':
         while True:
             sample_read = input('Enter your sample reading: ')
-            if sample_read == "end":
+            if sample_read == 'n' or sample_read == "end":
                 print('***end program***\n')
                 yn = 'end'
                 break
             try:
                 sample_read = float(sample_read)
-                if y_min < sample_read < y_max:
+                if y_min <= sample_read <= y_max:
                     sample_conc = log4pl_x(sample_read, *params)
                     print("Based upon a reading of " + str(sample_read) + ", your concentration is " + str(round(sample_conc, 3)) + " units")
                     sample_x += [sample_conc]
