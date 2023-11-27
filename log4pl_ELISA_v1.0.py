@@ -46,7 +46,6 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 # y = [2.372, 2.335, 2.227, 1.637, 1.115]
 
 # Define function
-concs=[]
 def serial_dilution(n, factor, start):
     """
     This function create list of concentrations from start and decrease by factor.
@@ -54,7 +53,7 @@ def serial_dilution(n, factor, start):
     Parameters
     ----------
     n : TYPE int
-        Number of points to create.
+        Number of points.
     factor : TYPE float
         Decreasing factor.
     start : TYPE float
@@ -65,12 +64,11 @@ def serial_dilution(n, factor, start):
         A list of concentrations.
         
     """
-    concs.append(start)
     if n == 1:   # Terminate recursion
-        return concs            
+        return start      
     else:
         start = start / factor
-        serial_dilution(n - 1, factor, start)   # Recursive call
+        return serial_dilution(n - 1, factor, start)   # Recursive call
 
 # prompt user for data input
 while True:
@@ -95,7 +93,9 @@ while True:
         print("That wasn't a valid number!\n")
 
 # calculate concentration series based on user input
-serial_dilution(num_points,serial_factor,start_conc)
+concs=[]
+for i in range(1, num_points+1):
+    concs.append(serial_dilution(i, serial_factor, start_conc))
 
 # get readings and store in list
 readings=[]
@@ -120,8 +120,7 @@ x_min = min(x)
 x_max = max(x)
 y_min = min(y)
 y_max = max(y)
-serial_dilution(4, 2, min(x))
-step = min(concs)
+step = serial_dilution(num_points+4, serial_factor, start_conc)
 x_new = np.arange(x_min, x_max, step)
 
 ### Define functions
