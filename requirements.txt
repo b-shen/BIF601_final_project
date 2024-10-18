@@ -1,4 +1,5 @@
-jupyternumpy
+jupyter
+numpy
 numpy
 pandas
 matplotlib
