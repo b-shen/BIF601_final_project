@@ -1,3 +1,4 @@
+jupyternumpy
 numpy
 pandas
 matplotlib
